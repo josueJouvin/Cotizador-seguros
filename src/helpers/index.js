@@ -22,9 +22,7 @@ export function calcularPlan(plan){
 }
 
 
-export function formatearDinero(cantidad){
-    
+export function formatearDinero(cantidad){  
    const valor = cantidad.toLocaleString("en-US", {style:"currency", currency:"USD"})
-    console.log(valor)
     return valor
 }
